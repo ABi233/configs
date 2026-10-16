@@ -1,0 +1,505 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "newWindow",
+                "profile": "{51855cb2-8cce-5362-8f54-464b92b32386}"
+            },
+            "id": "User.newWindow.C5CBDB0A"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{f9bfe4c2-6f32-5be4-9b44-4111d7f79370}",
+    "initialCols": 200,
+    "initialRows": 50,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "alt+c"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": null,
+            "keys": "alt+down"
+        },
+        {
+            "id": "Terminal.SwitchToTab0",
+            "keys": "alt+1"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "id": "Terminal.SwitchToTab5",
+            "keys": "alt+6"
+        },
+        {
+            "id": "Terminal.MoveFocusUp",
+            "keys": "ctrl+up"
+        },
+        {
+            "id": "Terminal.MoveFocusDown",
+            "keys": "ctrl+down"
+        },
+        {
+            "id": "Terminal.SwitchToTab7",
+            "keys": "alt+8"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+comma"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "id": "Terminal.DuplicatePaneRight",
+            "keys": "alt+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "alt+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": null,
+            "keys": "alt+up"
+        },
+        {
+            "id": null,
+            "keys": "alt+right"
+        },
+        {
+            "id": "Terminal.SwitchToTab2",
+            "keys": "alt+3"
+        },
+        {
+            "id": null,
+            "keys": "alt+left"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "alt+v"
+        },
+        {
+            "id": "Terminal.SwitchToTab3",
+            "keys": "alt+4"
+        },
+        {
+            "id": "Terminal.MoveFocusRight",
+            "keys": "ctrl+right"
+        },
+        {
+            "id": "Terminal.SwitchToTab4",
+            "keys": "alt+5"
+        },
+        {
+            "id": "User.newWindow.C5CBDB0A",
+            "keys": "ctrl+n"
+        },
+        {
+            "id": "Terminal.MoveFocusLeft",
+            "keys": "ctrl+left"
+        },
+        {
+            "id": "Terminal.DuplicatePaneDown",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.SwitchToTab1",
+            "keys": "alt+2"
+        },
+        {
+            "id": "Terminal.SwitchToTab6",
+            "keys": "alt+7"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+insert"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "none",
+            "historySize": 32000,
+            "startingDirectory": null
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{f9bfe4c2-6f32-5be4-9b44-4111d7f79370}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-101",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{0e459b44-336f-4db3-ac89-02b027de61a2}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-101",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-153",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{a70e5f57-83da-4403-8938-42350fac6f93}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-153",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-159",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{46733046-4f67-476e-b515-0c2a2253c39b}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-159",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh jetson-162",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{05aa276a-c6e4-4120-a097-59610833fb08}",
+                "hidden": false,
+                "icon": "C:\\Users\\Abi\\Pictures\\nvidia_logo.png",
+                "name": "jetson-162",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh dji-dock-test",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{779b3e9c-696a-4361-b201-b0961d2dbcff}",
+                "hidden": false,
+                "icon": "C:\\Users\\Abi\\Pictures\\nvidia_logo.png",
+                "name": "dji-dock-test",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh evoxt-vps-alibi-01",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{9882d85c-d2cb-46a0-9f60-9c91ef2db05e}",
+                "hidden": false,
+                "icon": "C:\\Users\\Abi\\Pictures\\evoxt_logo.png",
+                "name": "evoxt-vps-alibi-01",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-157",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{ef50e5ff-4a1c-42a8-8e45-c2104c0a01c5}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-157",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-151",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{48d9be43-9263-4495-876d-58884d1fc9db}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-151",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh home-101-tailscale",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{64d45765-4c37-4d7b-8952-503116611ca1}",
+                "hidden": false,
+                "icon": "C:\\Users\\Abi\\Pictures\\tailscale.png",
+                "name": "home-101-tailscale",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh home-101-frp",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{2da80211-3d8f-4a23-b018-1e0070f7b289}",
+                "hidden": false,
+                "icon": "C:\\Users\\Abi\\Pictures\\frp.png",
+                "name": "home-101-frp",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-108",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{7494aa87-683a-418e-81cd-541b915e1177}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-108",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-118",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{5c1828dc-9e69-49b9-bdf1-bb1dbe0e2126}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-118",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh office-155",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "Maple Mono Normal NF CN",
+                    "size": 10
+                },
+                "guid": "{1ea7a4b5-ed3b-48e9-871f-f9eb7b2adabc}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png\r",
+                "name": "office-155",
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~",
+                "suppressApplicationTitle": true
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": false
+}

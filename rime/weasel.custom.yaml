@@ -1,0 +1,9 @@
+patch:
+  # 配色主题
+  "style/color_scheme": dark_temple
+  "style/color_scheme_dark": dark_temple
+
+  # 字号，单位为 pt，可按喜好调整
+  "style/font_point": 11          # 候选文字
+  "style/label_font_point": 10    # 候选序号，如 1、2、3
+  "style/comment_font_point": 10  # 候选注释

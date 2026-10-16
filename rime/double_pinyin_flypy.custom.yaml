@@ -1,0 +1,9 @@
+patch:
+  # 小鹤双拼默认使用英文标点
+  "switches/@1/reset": 1
+
+  # 输入框显示双拼码，不展开为全拼
+  "translator/preedit_format": []
+
+  # 默认关闭 Emoji 候选
+  "switches/@3/reset": 0
